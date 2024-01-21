@@ -1,0 +1,249 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "product",
+    "dateExported": "2023-12-15T20:16:08.783Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d292dd47-fe7f-4e54-9913-23b6ac4692ff",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "create product",
+            "url": "/api/product",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-13T07:23:33.874Z",
+            "modified": "2023-12-15T11:49:35.629Z",
+            "headers": [
+                {
+                    "name": "Authentication-Token",
+                    "value": "WyI2NmMzOTNhYWEzOWE0MzU2OTBiMmM2ODAzYTZiZjNkNyJd.ZXw8-A.fjzEuJ9WGsIocxtdqLz_FjkEJ68"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"product_name\" : \"Powder\",\n  \"product_cost\"  : \"50\",\n  \"product_stock\" : \"10\",\n  \"category\" : \"Fruits\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d9986676-0279-4d9d-9380-6350bb2ad1ec",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:5000/login?include_auth_token",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-13T11:43:17.725Z",
+            "modified": "2023-12-13T11:55:30.932Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include_auth_token",
+                    "value": "",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"admin@email.com\",\n  \"password\" : \"admin\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "472e8186-c256-4eb7-951e-ca8161f54950",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "hih",
+            "url": "http://127.0.0.1:5000//admin",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-13T11:58:41.513Z",
+            "modified": "2023-12-13T12:01:15.610Z",
+            "headers": [
+                {
+                    "name": "Authentication-Token",
+                    "value": "WyJlYmUyYTFhZmRjMmM0NGQ5OTk1ZGMzODMyMGYwMmU2ZCJd.ZXmbsg.YKj2ZPBRkDlxpOejMFsdjNfi3Sc"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0f3c5930-d553-4fe9-98e8-8e208c1e58af",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "activate",
+            "url": "http://127.0.0.1:5000/activate/manager/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-12-13T12:14:50.164Z",
+            "modified": "2023-12-13T12:19:45.219Z",
+            "headers": [
+                {
+                    "name": "Authentication-Token",
+                    "value": "WyJlYmUyYTFhZmRjMmM0NGQ5OTk1ZGMzODMyMGYwMmU2ZCJd.ZXmgCw.a60cVQrb03rhtsX22PXYA3tSm5w"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3ca628a3-773b-4494-9043-97bcd8252240",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "user_login",
+            "url": "http://127.0.0.1:5000/user-login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-12-13T14:33:23.785Z",
+            "modified": "2023-12-15T11:39:27.126Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"manager@email.com\",\n  \"password\" : \"manager\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f5395355-40f3-4116-a740-21a534340045",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:5000/register",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-12-14T09:05:15.855Z",
+            "modified": "2023-12-14T10:32:58.926Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"12345@email.com\",\n  \"password\" : \"1234\",\n  \"role\" : \"user\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "552188f9-0eb8-4e11-b71a-ecb07f47cb37",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "get_users",
+            "url": "http://127.0.0.1:5000/users",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-12-14T11:29:18.863Z",
+            "modified": "2023-12-15T04:41:18.999Z",
+            "headers": [
+                {
+                    "name": "Authentication-Token",
+                    "value": "WyJmYmEwY2Y0MjI3NjY0NjU4YjMzZGIyNWJmZTgxMjNjYyJd.ZXvYuQ.ctj7pqQw3ACnRpnAw_IgptPoJY4"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "849fb27b-451e-4bdb-a5da-379b99f91847",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "users",
+            "url": "http://127.0.0.1:5000/getusers",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-12-15T04:37:33.842Z",
+            "modified": "2023-12-15T04:45:07.538Z",
+            "headers": [
+                {
+                    "name": "Authentication-Token",
+                    "value": "WyJmYmEwY2Y0MjI3NjY0NjU4YjMzZGIyNWJmZTgxMjNjYyJd.ZXvYuQ.ctj7pqQw3ACnRpnAw_IgptPoJY4"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a6e57014-a933-46bf-82ce-461d4861282b",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "create_category",
+            "url": "/api/category",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-12-15T11:36:38.146Z",
+            "modified": "2023-12-15T19:33:18.358Z",
+            "headers": [
+                {
+                    "name": "Authentication-Token",
+                    "value": "WyI2NmMzOTNhYWEzOWE0MzU2OTBiMmM2ODAzYTZiZjNkNyJd.ZXw8-A.fjzEuJ9WGsIocxtdqLz_FjkEJ68"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"category_name\" : \"Fruits\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "336c3944-1b09-4188-8a3b-2301ba1b3324",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "update product",
+            "url": "/api/product/1",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-12-15T17:29:23.520Z",
+            "modified": "2023-12-15T18:55:14.799Z",
+            "headers": [
+                {
+                    "name": "Authentication-Token",
+                    "value": "WyI2NmMzOTNhYWEzOWE0MzU2OTBiMmM2ODAzYTZiZjNkNyJd.ZXyNag.0PJ8VYT42wRTn1epUWMcKgepcTM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"product_cost\" : 10\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "93380f5d-a57d-4087-ae86-e7da673958e1",
+            "colId": "d9c7420a-39f2-4d1c-9499-3d7c75d02295",
+            "containerId": "",
+            "name": "update category",
+            "url": "/api/category",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2023-12-15T17:49:53.614Z",
+            "modified": "2023-12-15T17:52:35.592Z",
+            "headers": [
+                {
+                    "name": "Authentication-Token",
+                    "value": "WyI2NmMzOTNhYWEzOWE0MzU2OTBiMmM2ODAzYTZiZjNkNyJd.ZXyNag.0PJ8VYT42wRTn1epUWMcKgepcTM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"category_name\" : \"Flowers\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://127.0.0.1:5000/"
+        }
+    }
+}
